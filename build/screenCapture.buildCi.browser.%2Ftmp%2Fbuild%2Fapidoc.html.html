@@ -56,6 +56,15 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.lastfmapi.lastfmapi">
+            function <span class="apidocSignatureSpan"></span>lastfmapi
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <a class="apidocElementLiA" href="#apidoc.element.lastfmapi.album">
             function <span class="apidocSignatureSpan">lastfmapi.</span>album
             <span class="apidocSignatureSpan">(lastfm)</span>
@@ -168,6 +177,12 @@
         <li>
 
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">lastfmapi.</span>geo.prototype</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">lastfmapi.</span>lastfmapi.prototype</span>
 
         </li>
 
@@ -514,6 +529,50 @@
             <a class="apidocElementLiA" href="#apidoc.element.lastfmapi.geo.prototype.getTopTracks">
             function <span class="apidocSignatureSpan">lastfmapi.geo.prototype.</span>getTopTracks
             <span class="apidocSignatureSpan">(params, callback)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.lastfmapi.lastfmapi">module lastfmapi.lastfmapi</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.lastfmapi.lastfmapi.lastfmapi">
+            function <span class="apidocSignatureSpan">lastfmapi.</span>lastfmapi
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.lastfmapi.lastfmapi.prototype">module lastfmapi.lastfmapi.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.lastfmapi.lastfmapi.prototype.authenticate">
+            function <span class="apidocSignatureSpan">lastfmapi.lastfmapi.prototype.</span>authenticate
+            <span class="apidocSignatureSpan">(token, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.lastfmapi.lastfmapi.prototype.getAuthenticationUrl">
+            function <span class="apidocSignatureSpan">lastfmapi.lastfmapi.prototype.</span>getAuthenticationUrl
+            <span class="apidocSignatureSpan">(params)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.lastfmapi.lastfmapi.prototype.setSessionCredentials">
+            function <span class="apidocSignatureSpan">lastfmapi.lastfmapi.prototype.</span>setSessionCredentials
+            <span class="apidocSignatureSpan">(username, key)</span>
             </a>
 
         </li>
@@ -901,6 +960,32 @@
 
 
     <h2>
+        <a href="#apidoc.element.lastfmapi.lastfmapi" id="apidoc.element.lastfmapi.lastfmapi">
+        function <span class="apidocSignatureSpan"></span>lastfmapi
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">lastfmapi = function (options) {
+	this.api = new LastFmNode(options);
+	this.sessionCredentials = null;
+
+	this.album = new Album(this);
+	this.artist = new Artist(this);
+	this.auth = new Auth(this);
+	this.chart = new Chart(this);
+	this.geo = new Geo(this);
+	this.library = new Library(this);
+	this.tag = new Tag(this);
+	this.track = new Track(this);
+	this.user = new User(this);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
         <a href="#apidoc.element.lastfmapi.album" id="apidoc.element.lastfmapi.album">
         function <span class="apidocSignatureSpan">lastfmapi.</span>album
         <span class="apidocSignatureSpan">(lastfm)</span>
@@ -1030,6 +1115,8 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
+
+
 
 
 
@@ -2034,6 +2121,158 @@ See [docs](http://www.last.fm/api/show/artist.getTopTracks) for params.
 ##### `lfm.artist.removeTag(artist, tag, callback(err))`
 
 See [docs](http://www.last.fm/api/show/artist.removeTag).
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.lastfmapi.lastfmapi" id="apidoc.module.lastfmapi.lastfmapi">module lastfmapi.lastfmapi</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.lastfmapi.lastfmapi.lastfmapi" id="apidoc.element.lastfmapi.lastfmapi.lastfmapi">
+        function <span class="apidocSignatureSpan">lastfmapi.</span>lastfmapi
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">lastfmapi = function (options) {
+	this.api = new LastFmNode(options);
+	this.sessionCredentials = null;
+
+	this.album = new Album(this);
+	this.artist = new Artist(this);
+	this.auth = new Auth(this);
+	this.chart = new Chart(this);
+	this.geo = new Geo(this);
+	this.library = new Library(this);
+	this.tag = new Tag(this);
+	this.track = new Track(this);
+	this.user = new User(this);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.lastfmapi.lastfmapi.prototype" id="apidoc.module.lastfmapi.lastfmapi.prototype">module lastfmapi.lastfmapi.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.lastfmapi.lastfmapi.prototype.authenticate" id="apidoc.element.lastfmapi.lastfmapi.prototype.authenticate">
+        function <span class="apidocSignatureSpan">lastfmapi.lastfmapi.prototype.</span>authenticate
+        <span class="apidocSignatureSpan">(token, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">authenticate = function (token, callback) {
+	if (typeof callback !== 'function') { callback = function () {}; }
+	var self = this;
+
+	this.auth.getSession(token, function (err, session) {
+		if (err) { return callback(err); }
+		if (!session.key) { return callback(new Error('Something fishy')); }
+
+		self.setSessionCredentials(session.name, session.key);
+		callback(null, self.sessionCredentials);
+	});
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+the user to your callback URL. Somethig like
+"http://example.com/auth?token=THE_AUTHENTICATION_TOKEN"
+
+Then use the `authenticate` method using the received authentication
+token:
+
+```javascript
+lfm.<span class="apidocCodeKeywordSpan">authenticate</span>('THE_AUTHENTICATION_TOKEN', function (err, session) {
+	if (err) { throw err; }
+	console.log(session); // {"name": "LASTFM_USERNAME", "key": "THE_USER_SESSION_KEY"}
+});
+```
+
+The `authenticate` method is a short-hand function that does
+`auth.getSession` and stores the session credentials in the `LastfmAPI`
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.lastfmapi.lastfmapi.prototype.getAuthenticationUrl" id="apidoc.element.lastfmapi.lastfmapi.prototype.getAuthenticationUrl">
+        function <span class="apidocSignatureSpan">lastfmapi.lastfmapi.prototype.</span>getAuthenticationUrl
+        <span class="apidocSignatureSpan">(params)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">getAuthenticationUrl = function (params) {
+	if (!params) params = {};
+	var baseUrl = 'http://www.last.fm/api/auth',
+	    urlParts = url.parse(baseUrl);
+
+	urlParts.query = {};;
+	urlParts.query.api_key = this.api.api_key;
+	if (params.cb) { urlParts.query.cb = params.cb; }
+	if (params.token) { urlParts.query.token = params.token; }
+
+	return url.format(urlParts);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+web application authentication [here][webauth].
+
+To authenticate a user for a web application, first define a callback
+URL (`cb`) that will handle the authentication token. Then create an
+authentication URL and redirect the user to it.
+
+```javascript
+var authUrl = lfm.<span class="apidocCodeKeywordSpan">getAuthenticationUrl</span>({ 'cb' : 'http://example.com/auth
+' });
+console.log(authUrl); // redirect the user to this URL
+```
+
+The URL will look something like
+"http://www.last.fm/api/auth/?api_key=YOUR_API_KEY&amp;cb=http%3A%2F%2Fexample.com%2Fauth"
+
+After the user has authorized your application, Last.fm will redirect
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.lastfmapi.lastfmapi.prototype.setSessionCredentials" id="apidoc.element.lastfmapi.lastfmapi.prototype.setSessionCredentials">
+        function <span class="apidocSignatureSpan">lastfmapi.lastfmapi.prototype.</span>setSessionCredentials
+        <span class="apidocSignatureSpan">(username, key)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">setSessionCredentials = function (username, key) {
+	this.sessionCredentials = {
+		'username' : username,
+		'key' : key
+	};
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+use. Session keys do not expire.
+
+To authenticate the user again at a later time, simply set the
+credentials using `setSessionCredentials` and you are set to make
+authenticated method calls:
+
+```javascript
+lfm.<span class="apidocCodeKeywordSpan">setSessionCredentials</span>('LASTFM_USERNAME', 'THE_USER_SESSION_KEY'
+;);
+```
+
+### Authentication for Desktop Applications
+_(Coming soon)_
+
+### Authentication for Mobile Applications
+_(Coming soon)_
 ...</pre></li>
     </ul>
 
