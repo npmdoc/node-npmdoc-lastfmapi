@@ -1,22 +1,22 @@
 <svg height="302" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="302" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-19 08:25:00 +0000    36964 bytes  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-19 08:25:00 +0000     1053 bytes  LICENSE</tspan>
-<tspan x="10" y="58">  2.  2017-04-19 08:25:00 +0000    14424 bytes  README.md</tspan>
-<tspan x="10" y="74">  3.  2017-04-19 08:25:00 +0000     2192 bytes  examples/authenticate.js</tspan>
-<tspan x="10" y="90">  4.  2017-04-19 08:25:00 +0000       44 bytes  index.js</tspan>
-<tspan x="10" y="106">  5.  2017-04-19 08:25:00 +0000     1539 bytes  lib/album.js</tspan>
-<tspan x="10" y="122">  6.  2017-04-19 08:25:00 +0000     2301 bytes  lib/artist.js</tspan>
-<tspan x="10" y="138">  7.  2017-04-19 08:25:00 +0000      733 bytes  lib/auth.js</tspan>
-<tspan x="10" y="154">  8.  2017-04-19 08:25:00 +0000     1179 bytes  lib/chart.js</tspan>
-<tspan x="10" y="170">  9.  2017-04-19 08:25:00 +0000      470 bytes  lib/defaults.js</tspan>
-<tspan x="10" y="186"> 10.  2017-04-19 08:25:00 +0000      489 bytes  lib/geo.js</tspan>
-<tspan x="10" y="202"> 11.  2017-04-19 08:25:00 +0000     1785 bytes  lib/lastfmapi.js</tspan>
-<tspan x="10" y="218"> 12.  2017-04-19 08:25:00 +0000      307 bytes  lib/library.js</tspan>
-<tspan x="10" y="234"> 13.  2017-04-19 08:25:00 +0000     1537 bytes  lib/tag.js</tspan>
-<tspan x="10" y="250"> 14.  2017-04-19 08:25:00 +0000     3082 bytes  lib/track.js</tspan>
-<tspan x="10" y="266"> 15.  2017-04-19 08:25:00 +0000     3181 bytes  lib/user.js</tspan>
-<tspan x="10" y="282"> 16.  2017-04-19 08:25:00 +0000     2648 bytes  package.json</tspan>
+<tspan x="10" y="26">  0.  2017-04-19 08:25:59 +0000    36964 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-19 08:25:59 +0000     1053 bytes  LICENSE</tspan>
+<tspan x="10" y="58">  2.  2017-04-19 08:25:59 +0000    14424 bytes  README.md</tspan>
+<tspan x="10" y="74">  3.  2017-04-19 08:25:59 +0000     2192 bytes  examples/authenticate.js</tspan>
+<tspan x="10" y="90">  4.  2017-04-19 08:25:59 +0000       44 bytes  index.js</tspan>
+<tspan x="10" y="106">  5.  2017-04-19 08:25:59 +0000     1539 bytes  lib/album.js</tspan>
+<tspan x="10" y="122">  6.  2017-04-19 08:25:59 +0000     2301 bytes  lib/artist.js</tspan>
+<tspan x="10" y="138">  7.  2017-04-19 08:25:59 +0000      733 bytes  lib/auth.js</tspan>
+<tspan x="10" y="154">  8.  2017-04-19 08:25:59 +0000     1179 bytes  lib/chart.js</tspan>
+<tspan x="10" y="170">  9.  2017-04-19 08:25:59 +0000      470 bytes  lib/defaults.js</tspan>
+<tspan x="10" y="186"> 10.  2017-04-19 08:25:59 +0000      489 bytes  lib/geo.js</tspan>
+<tspan x="10" y="202"> 11.  2017-04-19 08:25:59 +0000     1785 bytes  lib/lastfmapi.js</tspan>
+<tspan x="10" y="218"> 12.  2017-04-19 08:25:59 +0000      307 bytes  lib/library.js</tspan>
+<tspan x="10" y="234"> 13.  2017-04-19 08:25:59 +0000     1537 bytes  lib/tag.js</tspan>
+<tspan x="10" y="250"> 14.  2017-04-19 08:25:59 +0000     3082 bytes  lib/track.js</tspan>
+<tspan x="10" y="266"> 15.  2017-04-19 08:25:59 +0000     3181 bytes  lib/user.js</tspan>
+<tspan x="10" y="282"> 16.  2017-04-19 08:25:59 +0000     2648 bytes  package.json</tspan>
 </text>
 </svg>
